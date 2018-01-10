@@ -1,0 +1,3 @@
+CREATE UNIQUE INDEX sbxtax4.ht_exg_rt_srcs_u1 ON sbxtax4.ht_exchange_rate_sources(aud_exchange_rate_source_id)
+
+TABLESPACE ositax;

@@ -1,0 +1,1 @@
+CREATE SEQUENCE content_repo.gis_etl_process_log_sq NOCACHE;

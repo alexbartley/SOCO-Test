@@ -1,0 +1,3 @@
+CREATE INDEX content_repo.plix_jurisid_rid ON content_repo.taxability_outputs(juris_tax_applicability_id,rid)
+
+TABLESPACE content_repo;

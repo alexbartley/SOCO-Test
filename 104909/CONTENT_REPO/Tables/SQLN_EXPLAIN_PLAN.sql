@@ -1,0 +1,27 @@
+CREATE TABLE content_repo.sqln_explain_plan (
+  "STATEMENT_ID" VARCHAR2(30 CHAR),
+  "TIMESTAMP" DATE,
+  remarks VARCHAR2(80 CHAR),
+  operation VARCHAR2(30 CHAR),
+  options VARCHAR2(30 CHAR),
+  object_node VARCHAR2(128 CHAR),
+  object_owner VARCHAR2(30 CHAR),
+  object_name VARCHAR2(30 CHAR),
+  object_instance NUMBER(*,0),
+  object_type VARCHAR2(30 CHAR),
+  optimizer VARCHAR2(255 CHAR),
+  search_columns NUMBER(*,0),
+  "ID" NUMBER(*,0),
+  parent_id NUMBER(*,0),
+  position NUMBER(*,0),
+  "COST" NUMBER(*,0),
+  "CARDINALITY" NUMBER(*,0),
+  bytes NUMBER(*,0),
+  other_tag VARCHAR2(255 CHAR),
+  partition_start VARCHAR2(255 CHAR),
+  partition_stop VARCHAR2(255 CHAR),
+  partition_id NUMBER(*,0),
+  "OTHER" LONG,
+  distribution VARCHAR2(30 CHAR)
+) 
+TABLESPACE content_repo;

@@ -1,0 +1,3 @@
+CREATE UNIQUE INDEX content_repo.taxability_elements_un ON content_repo.taxability_elements(element_name)
+
+TABLESPACE content_repo;

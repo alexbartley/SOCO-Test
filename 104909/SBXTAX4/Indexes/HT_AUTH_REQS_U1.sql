@@ -1,0 +1,3 @@
+CREATE UNIQUE INDEX sbxtax4.ht_auth_reqs_u1 ON sbxtax4.ht_authority_requirements(aud_authority_requirement_id)
+
+TABLESPACE ositax;

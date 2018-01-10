@@ -1,0 +1,35 @@
+CREATE TABLE content_repo.dev_dataload_telco (
+  rule_id NUMBER(10) NOT NULL,
+  rate_code VARCHAR2(50 BYTE),
+  tax_imp_id NUMBER,
+  tax_imp_nkid NUMBER,
+  juris_nkid NUMBER NOT NULL,
+  juris_id NUMBER NOT NULL,
+  rule_order NUMBER(31,10) NOT NULL,
+  ranking NUMBER,
+  commodity_id NUMBER,
+  authority_id NUMBER(10) NOT NULL,
+  calculation_method VARCHAR2(50 CHAR),
+  start_date DATE NOT NULL,
+  end_date DATE,
+  basis_percent NUMBER,
+  allocated_charge VARCHAR2(2 CHAR),
+  unit_of_measure VARCHAR2(100 CHAR),
+  is_local_s VARCHAR2(1 CHAR),
+  no_tax VARCHAR2(1 CHAR),
+  input_recovery_percent NUMBER,
+  invoice_description VARCHAR2(100 CHAR),
+  rule_comment VARCHAR2(2000 CHAR),
+  tax_type VARCHAR2(100 CHAR),
+  product_tree_id NUMBER,
+  cal_meth_id NUMBER,
+  applicability_type VARCHAR2(10 CHAR),
+  all_taxes_apply NUMBER,
+  input_recovery_amount NUMBER(31,5),
+  related_charge VARCHAR2(1 CHAR),
+  "EXEMPT" VARCHAR2(1 CHAR),
+  upd_rule_order VARCHAR2(30 CHAR)
+) 
+TABLESPACE content_repo
+LOB (rule_comment) STORE AS SECUREFILE (
+  ENABLE STORAGE IN ROW);

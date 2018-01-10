@@ -1,0 +1,3 @@
+CREATE INDEX content_repo.osr_rate_level_overrides_un ON content_repo.osr_rate_level_overrides(nkid)
+
+TABLESPACE content_repo;

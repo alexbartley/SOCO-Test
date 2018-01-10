@@ -1,0 +1,16 @@
+CREATE OR REPLACE TRIGGER content_repo."INS_COMM_ATT_NKIDS" 
+ BEFORE
+  INSERT
+ ON content_repo.COMMODITY_ATTRIBUTES
+REFERENCING NEW AS NEW OLD AS OLD
+ FOR EACH ROW
+DECLARE
+    l_nkid number;
+BEGIN
+select nkid
+into :new.COMMODITY_NKID
+from commodities
+where id = :new.COMMODITY_ID;
+
+END;
+/

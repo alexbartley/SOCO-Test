@@ -1,0 +1,3 @@
+CREATE UNIQUE INDEX sbxtax.ht_scn_ln_a_tps_u1 ON sbxtax.ht_scenario_line_auth_types(aud_scenario_line_auth_type_id)
+
+TABLESPACE ositax;

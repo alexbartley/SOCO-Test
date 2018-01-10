@@ -1,0 +1,1 @@
+GRANT SELECT ON sbxtax4.tdr_etl_tb_rate_tiers TO datax4;

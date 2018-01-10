@@ -1,0 +1,1 @@
+CREATE SEQUENCE content_repo.nkid_ref_group_revisions NOCACHE;

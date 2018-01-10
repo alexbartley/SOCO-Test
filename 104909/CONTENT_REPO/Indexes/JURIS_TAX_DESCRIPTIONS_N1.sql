@@ -1,0 +1,3 @@
+CREATE INDEX content_repo.juris_tax_descriptions_n1 ON content_repo.juris_tax_descriptions(tax_description_id)
+
+TABLESPACE content_repo;

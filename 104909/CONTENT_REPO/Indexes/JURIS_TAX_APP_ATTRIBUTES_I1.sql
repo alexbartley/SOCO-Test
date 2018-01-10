@@ -1,0 +1,3 @@
+CREATE INDEX content_repo.juris_tax_app_attributes_i1 ON content_repo.juris_tax_app_attributes(juris_tax_applicability_id,rid)
+
+TABLESPACE content_repo;

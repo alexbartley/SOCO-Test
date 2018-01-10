@@ -1,0 +1,130 @@
+CREATE INDEX content_repo.vgeo_unique_areas_mv_i1 ON content_repo.vgeo_unique_areas2(area_id)
+
+LOCAL (PARTITION mv_ua_al
+  TABLESPACE content_repo,
+PARTITION mv_ua_ak
+  TABLESPACE content_repo,
+PARTITION mv_ua_ar
+  TABLESPACE content_repo,
+PARTITION mv_ua_az
+  TABLESPACE content_repo,
+PARTITION mv_ua_aa
+  TABLESPACE content_repo,
+PARTITION mv_ua_ae
+  TABLESPACE content_repo,
+PARTITION mv_ua_ap
+  TABLESPACE content_repo,
+PARTITION mv_ua_as
+  TABLESPACE content_repo,
+PARTITION mv_ua_ca
+  TABLESPACE content_repo,
+PARTITION mv_ua_co
+  TABLESPACE content_repo,
+PARTITION mv_ua_ct
+  TABLESPACE content_repo,
+PARTITION mv_ua_de
+  TABLESPACE content_repo,
+PARTITION mv_ua_dc
+  TABLESPACE content_repo,
+PARTITION mv_ua_fl
+  TABLESPACE content_repo,
+PARTITION mv_ua_fm
+  TABLESPACE content_repo,
+PARTITION mv_ua_ga
+  TABLESPACE content_repo,
+PARTITION mv_ua_gu
+  TABLESPACE content_repo,
+PARTITION mv_ua_hi
+  TABLESPACE content_repo,
+PARTITION mv_ua_id
+  TABLESPACE content_repo,
+PARTITION mv_ua_il
+  TABLESPACE content_repo,
+PARTITION mv_ua_in
+  TABLESPACE content_repo,
+PARTITION mv_ua_ia
+  TABLESPACE content_repo,
+PARTITION mv_ua_ks
+  TABLESPACE content_repo,
+PARTITION mv_ua_ky
+  TABLESPACE content_repo,
+PARTITION mv_ua_la
+  TABLESPACE content_repo,
+PARTITION mv_ua_me
+  TABLESPACE content_repo,
+PARTITION mv_ua_md
+  TABLESPACE content_repo,
+PARTITION mv_ua_ma
+  TABLESPACE content_repo,
+PARTITION mv_ua_mi
+  TABLESPACE content_repo,
+PARTITION mv_ua_mn
+  TABLESPACE content_repo,
+PARTITION mv_ua_ms
+  TABLESPACE content_repo,
+PARTITION mv_ua_mo
+  TABLESPACE content_repo,
+PARTITION mv_ua_mt
+  TABLESPACE content_repo,
+PARTITION mv_ua_mh
+  TABLESPACE content_repo,
+PARTITION mv_ua_mp
+  TABLESPACE content_repo,
+PARTITION mv_ua_ne
+  TABLESPACE content_repo,
+PARTITION mv_ua_nv
+  TABLESPACE content_repo,
+PARTITION mv_ua_nh
+  TABLESPACE content_repo,
+PARTITION mv_ua_nj
+  TABLESPACE content_repo,
+PARTITION mv_ua_nm
+  TABLESPACE content_repo,
+PARTITION mv_ua_ny
+  TABLESPACE content_repo,
+PARTITION mv_ua_nc
+  TABLESPACE content_repo,
+PARTITION mv_ua_nd
+  TABLESPACE content_repo,
+PARTITION mv_ua_oh
+  TABLESPACE content_repo,
+PARTITION mv_ua_ok
+  TABLESPACE content_repo,
+PARTITION mv_ua_or
+  TABLESPACE content_repo,
+PARTITION mv_ua_pa
+  TABLESPACE content_repo,
+PARTITION mv_ua_pr
+  TABLESPACE content_repo,
+PARTITION mv_ua_pw
+  TABLESPACE content_repo,
+PARTITION mv_ua_ri
+  TABLESPACE content_repo,
+PARTITION mv_ua_sc
+  TABLESPACE content_repo,
+PARTITION mv_ua_sd
+  TABLESPACE content_repo,
+PARTITION mv_ua_tn
+  TABLESPACE content_repo,
+PARTITION mv_ua_tx
+  TABLESPACE content_repo,
+PARTITION mv_ua_ut
+  TABLESPACE content_repo,
+PARTITION mv_ua_vt
+  TABLESPACE content_repo,
+PARTITION mv_ua_va
+  TABLESPACE content_repo,
+PARTITION mv_ua_vi
+  TABLESPACE content_repo,
+PARTITION mv_ua_wa
+  TABLESPACE content_repo,
+PARTITION mv_ua_wv
+  TABLESPACE content_repo,
+PARTITION mv_ua_wi
+  TABLESPACE content_repo,
+PARTITION mv_ua_wy
+  TABLESPACE content_repo,
+PARTITION mv_ua_us
+  TABLESPACE content_repo,
+PARTITION mv_ua_x0
+  TABLESPACE content_repo);

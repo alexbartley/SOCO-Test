@@ -1,0 +1,3 @@
+CREATE INDEX content_repo.juris_tax_impositions_n4 ON content_repo.juris_tax_impositions(reference_code,jurisdiction_id)
+
+TABLESPACE content_repo;

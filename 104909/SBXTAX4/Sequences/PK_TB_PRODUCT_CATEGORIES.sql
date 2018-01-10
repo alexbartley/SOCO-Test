@@ -1,0 +1,1 @@
+CREATE SEQUENCE sbxtax4.pk_tb_product_categories NOCACHE;

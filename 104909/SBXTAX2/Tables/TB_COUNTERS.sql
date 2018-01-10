@@ -1,0 +1,6 @@
+CREATE TABLE sbxtax2.tb_counters (
+  "NAME" VARCHAR2(32 BYTE) NOT NULL,
+  "VALUE" NUMBER NOT NULL,
+  synchronization_timestamp TIMESTAMP DEFAULT SYSTIMESTAMP
+) 
+TABLESPACE ositax;

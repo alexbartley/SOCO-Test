@@ -1,0 +1,10 @@
+CREATE OR REPLACE TRIGGER content_repo."UPD_EXTERNAL_REFERENCES" 
+ BEFORE
+  UPDATE
+ ON content_repo.External_References
+REFERENCING NEW AS NEW OLD AS OLD
+ FOR EACH ROW
+BEGIN
+ :new.status_modified_date := SYSTIMESTAMP;
+END;
+/

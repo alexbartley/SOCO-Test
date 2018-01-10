@@ -1,0 +1,3 @@
+CREATE UNIQUE INDEX sbxtax3.prd_crs_ref_grp_u1 ON sbxtax3.tb_product_cross_ref_groups(product_cross_ref_group_id)
+
+TABLESPACE ositax;

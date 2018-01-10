@@ -1,0 +1,27 @@
+CREATE TABLE sbxtax4.tmp_rule_products_c (
+  tas_nkid NUMBER,
+  commodity_nkid NUMBER,
+  start_date DATE,
+  end_date DATE,
+  rule_order NUMBER,
+  hierarchy_level NUMBER,
+  tran_tax_id NUMBER,
+  no_tax VARCHAR2(1 CHAR),
+  "EXEMPT" VARCHAR2(1 CHAR),
+  highest_level NUMBER,
+  sibling_order NUMBER,
+  lowest_level NUMBER,
+  rate_code VARCHAR2(32 CHAR),
+  authority_uuid VARCHAR2(36 CHAR),
+  rule_qualifier_set VARCHAR2(1000 CHAR),
+  commodity_group_id NUMBER,
+  extract_id NUMBER,
+  is_local VARCHAR2(1 CHAR),
+  h_code VARCHAR2(128 CHAR),
+  product_tree_id NUMBER,
+  rule_qual_order NUMBER,
+  nkid NUMBER,
+  rid NUMBER,
+  product_tree VARCHAR2(50 CHAR)
+) 
+TABLESPACE ositax;

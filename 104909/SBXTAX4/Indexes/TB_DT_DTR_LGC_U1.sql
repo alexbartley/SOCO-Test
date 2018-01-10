@@ -1,0 +1,3 @@
+CREATE UNIQUE INDEX sbxtax4.tb_dt_dtr_lgc_u1 ON sbxtax4.tb_date_determination_logic(date_determination_logic_id)
+
+TABLESPACE ositax;

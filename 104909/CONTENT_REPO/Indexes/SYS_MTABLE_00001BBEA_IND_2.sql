@@ -1,0 +1,3 @@
+CREATE INDEX content_repo.sys_mtable_00001bbea_ind_2 ON content_repo.sys_export_schema_01(base_process_order)
+
+TABLESPACE content_repo;

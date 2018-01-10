@@ -1,0 +1,1 @@
+GRANT EXECUTE ON sbxtax4.cr_extract TO datax4;

@@ -1,0 +1,28 @@
+CREATE TABLE content_repo.kpmg_export_juris_file (
+  a_jurisdiction_name VARCHAR2(250 CHAR),
+  a_geo_area_key VARCHAR2(200 CHAR),
+  a_start_date VARCHAR2(10 CHAR),
+  a_end_date VARCHAR2(10 CHAR),
+  jurisdiction_name VARCHAR2(250 CHAR),
+  description VARCHAR2(1000 CHAR),
+  geo_area VARCHAR2(200 CHAR),
+  start_date VARCHAR2(10 CHAR),
+  end_date VARCHAR2(10 CHAR),
+  c_juris_tax_id NUMBER,
+  c_jurisdiction_name VARCHAR2(250 CHAR),
+  c_taxation_type VARCHAR2(100 CHAR),
+  c_reference_code VARCHAR2(50 CHAR),
+  c_transaction_type VARCHAR2(100 CHAR),
+  c_spec_applicabiliity_type VARCHAR2(100 CHAR),
+  c_revenue_purpose_description VARCHAR2(50 CHAR),
+  c_tax_structure VARCHAR2(500 CHAR),
+  c_tax_value_type VARCHAR2(15 CHAR),
+  c_referenced_code VARCHAR2(50 CHAR),
+  c_tax_value NUMBER,
+  c_min_threshold NUMBER,
+  c_max_limit NUMBER,
+  c_start_date VARCHAR2(10 CHAR),
+  c_end_date VARCHAR2(10 CHAR),
+  c_out_rid NUMBER
+) 
+TABLESPACE content_repo;

@@ -1,0 +1,3 @@
+CREATE INDEX content_repo.geo_unique_area_attr_n1 ON content_repo.geo_unique_area_attributes(geo_unique_area_id,attribute_id)
+
+TABLESPACE content_repo;

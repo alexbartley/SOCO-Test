@@ -1,0 +1,16 @@
+CREATE OR REPLACE TRIGGER content_repo."INS_REF_ITEMS_NKIDS" 
+ BEFORE
+  INSERT
+ ON content_repo.REFERENCE_ITEMS
+REFERENCING NEW AS NEW OLD AS OLD
+ FOR EACH ROW
+DECLARE
+    l_nkid number;
+BEGIN
+select nkid
+into :new.REFERENCE_GROUP_NKID
+from reference_groups
+where id = :new.REFERENCE_GROUP_ID;
+
+END;
+/

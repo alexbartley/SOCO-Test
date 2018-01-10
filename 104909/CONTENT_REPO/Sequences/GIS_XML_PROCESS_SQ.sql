@@ -1,0 +1,1 @@
+CREATE SEQUENCE content_repo.gis_xml_process_sq;

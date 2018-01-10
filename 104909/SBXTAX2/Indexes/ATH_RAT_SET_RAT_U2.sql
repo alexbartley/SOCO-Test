@@ -1,0 +1,3 @@
+CREATE UNIQUE INDEX sbxtax2.ath_rat_set_rat_u2 ON sbxtax2.tb_authority_rate_set_rates(authority_rate_set_id,start_date,process_order)
+
+TABLESPACE ositax;

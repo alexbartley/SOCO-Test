@@ -1,0 +1,2 @@
+CREATE INDEX sbxtax4.tdr_etl_taxabilities_n1 ON sbxtax4.tmp_taxabilities(start_date,rule_qualifier_set,product_category_id)
+TABLESPACE ositax;

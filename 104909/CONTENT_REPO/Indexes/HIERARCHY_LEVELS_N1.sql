@@ -1,0 +1,3 @@
+CREATE INDEX content_repo.hierarchy_levels_n1 ON content_repo.hierarchy_levels(geo_area_category_id)
+
+TABLESPACE content_repo;

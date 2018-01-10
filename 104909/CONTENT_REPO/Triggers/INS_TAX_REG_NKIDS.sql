@@ -1,0 +1,16 @@
+CREATE OR REPLACE TRIGGER content_repo."INS_TAX_REG_NKIDS" 
+ BEFORE
+  INSERT
+ ON content_repo.TAX_REGISTRATIONS
+REFERENCING NEW AS NEW OLD AS OLD
+ FOR EACH ROW
+DECLARE
+    l_nkid number;
+BEGIN
+select nkid
+into :new.ADMINISTRATOR_NKID
+from administrators
+where id = :new.ADMINISTRATOR_ID;
+
+END;
+/

@@ -1,0 +1,3 @@
+CREATE UNIQUE INDEX sbxtax2.est_aths_u2 ON sbxtax2.tb_established_authorities(merchant_id,established_authority_type_id,authority_id,start_date)
+
+TABLESPACE ositax;

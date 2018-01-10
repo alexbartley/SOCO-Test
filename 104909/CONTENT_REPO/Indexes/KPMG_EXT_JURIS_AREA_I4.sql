@@ -1,0 +1,3 @@
+CREATE INDEX content_repo.kpmg_ext_juris_area_i4 ON content_repo.kpmg_ext_juris_area(jurisdiction_name)
+
+TABLESPACE content_repo;

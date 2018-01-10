@@ -1,0 +1,3 @@
+CREATE INDEX content_repo.taxability_outputs_n2 ON content_repo.taxability_outputs(tax_applicability_tax_nkid,rid)
+
+TABLESPACE content_repo;

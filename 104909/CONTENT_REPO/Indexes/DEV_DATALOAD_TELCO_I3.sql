@@ -1,0 +1,3 @@
+CREATE INDEX content_repo.dev_dataload_telco_i3 ON content_repo.dev_dataload_telco(rule_id,authority_id)
+
+TABLESPACE content_repo;

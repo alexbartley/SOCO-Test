@@ -1,0 +1,3 @@
+CREATE INDEX content_repo.gis_zone_auth_cnts2_tmp_n1 ON content_repo.gis_zone_auth_counts2_tmp(zippct)
+
+TABLESPACE content_repo;

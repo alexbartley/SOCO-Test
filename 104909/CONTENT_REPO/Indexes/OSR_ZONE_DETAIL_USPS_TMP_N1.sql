@@ -1,0 +1,3 @@
+CREATE INDEX content_repo.osr_zone_detail_usps_tmp_n1 ON content_repo.osr_zone_detail_usps_tmp(state_code,zip,county_name,city_name)
+
+TABLESPACE content_repo;

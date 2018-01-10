@@ -1,0 +1,3 @@
+CREATE UNIQUE INDEX sbxtax4.dash_tax_typ_u1 ON sbxtax4.tb_dashboard_view_tax_types(dashboard_view_tax_type_id)
+
+TABLESPACE ositax;

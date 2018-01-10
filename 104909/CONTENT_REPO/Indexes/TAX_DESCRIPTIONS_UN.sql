@@ -1,0 +1,3 @@
+CREATE UNIQUE INDEX content_repo.tax_descriptions_un ON content_repo.tax_descriptions(transaction_type_id,spec_applicability_type_id,taxation_type_id)
+
+TABLESPACE content_repo;

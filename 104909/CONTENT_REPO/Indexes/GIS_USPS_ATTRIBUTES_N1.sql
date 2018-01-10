@@ -1,0 +1,3 @@
+CREATE INDEX content_repo.gis_usps_attributes_n1 ON content_repo.gis_usps_attributes(geo_polygon_usps_id)
+
+TABLESPACE content_repo;

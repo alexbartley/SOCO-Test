@@ -1,0 +1,3 @@
+CREATE INDEX content_repo.juris_tax_chg_logs_i3 ON content_repo.juris_tax_chg_logs(status_modified_date,entered_by)
+
+TABLESPACE content_repo;

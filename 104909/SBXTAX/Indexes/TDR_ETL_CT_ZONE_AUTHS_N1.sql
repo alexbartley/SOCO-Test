@@ -1,0 +1,2 @@
+CREATE INDEX sbxtax.tdr_etl_ct_zone_auths_n1 ON sbxtax.tdr_etl_ct_zone_authorities(zone_3_name,zone_4_name,zone_5_name,zone_6_name,zone_7_name,authority_name)
+TABLESPACE ositax;

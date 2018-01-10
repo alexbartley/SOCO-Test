@@ -1,0 +1,2 @@
+CREATE OR REPLACE TYPE content_repo."XMLFORMREFERENCEITEM"                                          as object (id number, rid number, reference_group_id number, value varchar2(128), value_type varchar2(64), ref_nkid number, start_date date, end_date date, nkid number, entered_by number, modified number, deleted numbeR);
+/

@@ -1,0 +1,1 @@
+CREATE SEQUENCE sbxtax2.pk_tb_zone_authorities MAXVALUE 4000001702 MINVALUE 0;

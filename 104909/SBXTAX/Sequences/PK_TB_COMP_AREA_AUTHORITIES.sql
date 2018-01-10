@@ -1,0 +1,1 @@
+CREATE SEQUENCE sbxtax.pk_tb_comp_area_authorities NOCACHE;

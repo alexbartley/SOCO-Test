@@ -1,0 +1,3 @@
+CREATE INDEX content_repo.tax_administrators_n3 ON content_repo.tax_administrators(juris_tax_imposition_id)
+
+TABLESPACE content_repo;

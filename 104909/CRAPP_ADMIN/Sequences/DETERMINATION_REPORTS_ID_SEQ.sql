@@ -1,0 +1,1 @@
+CREATE SEQUENCE crapp_admin.determination_reports_id_seq;

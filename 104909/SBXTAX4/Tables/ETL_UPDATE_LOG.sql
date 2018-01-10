@@ -1,0 +1,11 @@
+CREATE TABLE sbxtax4.etl_update_log (
+  "ID" NUMBER,
+  log_time TIMESTAMP,
+  table_name VARCHAR2(30 CHAR),
+  primary_key NUMBER,
+  cause VARCHAR2(512 CHAR),
+  "ERROR" VARCHAR2(4000 CHAR)
+) 
+TABLESPACE ositax
+LOB ("ERROR") STORE AS SECUREFILE (
+  ENABLE STORAGE IN ROW);

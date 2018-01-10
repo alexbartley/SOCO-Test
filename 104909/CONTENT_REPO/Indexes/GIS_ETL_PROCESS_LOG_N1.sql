@@ -1,0 +1,3 @@
+CREATE INDEX content_repo.gis_etl_process_log_n1 ON content_repo.gis_etl_process_log(process_id,etl_process,end_date)
+
+TABLESPACE content_repo;

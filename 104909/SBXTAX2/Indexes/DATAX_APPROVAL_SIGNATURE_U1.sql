@@ -1,0 +1,3 @@
+CREATE UNIQUE INDEX sbxtax2.datax_approval_signature_u1 ON sbxtax2.datax_approval_signatures(approval_signature_id)
+
+TABLESPACE ositax;

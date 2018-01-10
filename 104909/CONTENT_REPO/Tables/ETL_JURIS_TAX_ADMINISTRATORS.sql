@@ -1,0 +1,25 @@
+CREATE TABLE content_repo.etl_juris_tax_administrators (
+  "ID" NUMBER NOT NULL,
+  nkid NUMBER NOT NULL,
+  rid NUMBER NOT NULL,
+  next_rid NUMBER,
+  admin_id NUMBER NOT NULL,
+  admin_nkid NUMBER NOT NULL,
+  admin_rid NUMBER NOT NULL,
+  juris_tax_id NUMBER NOT NULL,
+  juris_tax_nkid NUMBER NOT NULL,
+  juris_tax_rid NUMBER NOT NULL,
+  administrator_name VARCHAR2(250 CHAR) NOT NULL,
+  collects_tax NUMBER,
+  collector_name VARCHAR2(250 CHAR),
+  collector_id NUMBER,
+  collector_nkid NUMBER,
+  collector_rid NUMBER,
+  start_date VARCHAR2(10 BYTE),
+  end_date VARCHAR2(10 BYTE),
+  status NUMBER NOT NULL,
+  status_modified_date TIMESTAMP NOT NULL,
+  entered_by NUMBER NOT NULL,
+  entered_date TIMESTAMP NOT NULL
+) 
+TABLESPACE content_repo;

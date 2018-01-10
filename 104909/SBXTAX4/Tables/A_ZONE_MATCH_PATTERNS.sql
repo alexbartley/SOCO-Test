@@ -1,0 +1,26 @@
+CREATE TABLE sbxtax4.a_zone_match_patterns (
+  zone_match_pattern_id NUMBER(10),
+  "PATTERN" VARCHAR2(50 CHAR),
+  "VALUE" VARCHAR2(50 CHAR),
+  "TYPE" VARCHAR2(2 CHAR),
+  merchant_id NUMBER(10),
+  created_by NUMBER(10),
+  creation_date DATE,
+  last_updated_by NUMBER(10),
+  last_update_date DATE,
+  synchronization_timestamp TIMESTAMP,
+  pattern_o VARCHAR2(50 CHAR),
+  zone_match_pattern_id_o NUMBER(10),
+  value_o VARCHAR2(50 CHAR),
+  type_o VARCHAR2(2 CHAR),
+  merchant_id_o NUMBER(10),
+  created_by_o NUMBER(10),
+  creation_date_o DATE,
+  last_updated_by_o NUMBER(10),
+  last_update_date_o DATE,
+  synchronization_timestamp_o TIMESTAMP,
+  change_version VARCHAR2(50 CHAR),
+  change_type VARCHAR2(100 CHAR) NOT NULL,
+  change_date DATE NOT NULL
+) 
+TABLESPACE ositax;

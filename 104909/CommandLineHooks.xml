@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!---->
+
+<!--
+-Creating a custom config file-
+To create a config file for your source control system:
+
+1. Specify commands and verification codes below for the source control actions you want to automate.
+2. Save your changes as a new XML file in the default config files folder:
+   %USERPROFILE%\AppData\Local\Red Gate\SQL Source Control 3\CommandLineHooks
+   
+ Do not store any usernames, passwords, or other sensitive data in this config file. The contents of the config file
+ will be checked into your source control repository and may, with your consent, be sent to Red Gate if SQL Source Control
+ crashes.
+
+-Tags-
+<CommandLine> is a command run using cmd.exe. You can specify the following macros in a command:
+($Files) - Any files that the command should be executed for
+($Folders) - Any folders that the command should be executed for (optional)
+($ScriptsFolder) - The working folder that has been linked to 
+($Message) - The message that is added on committing to source control
+($MessageFile) - A txt file containing the message that is added on committing to source control
+
+<Verify> is a C# expression used to check the command line executed successfully. Verify has the following variables:
+exitCode - The error level/exit code returned by the command
+output - The console output from the command
+-->
+
+<HooksConfig version="1" type="HooksConfig">
+  <!-- The name of the config file that will be displayed in the SQL Source Control user interface -->
+  <Name>Template</Name>
+  <Commands type="Commands" version="2">
+    <element>
+      <key type="string">GetLatest</key>
+      <!-- Updates the local working folder with latest version in source control. -->
+      <!-- Valid macros: ($ScriptsFolder) ($Message) -->
+      <value version="1" type="GenericHookCommand">
+        <CommandLine></CommandLine>
+        <Verify>exitCode == 0</Verify>
+      </value>
+    </element>
+    <element>
+      <key type="string">Add</key>
+      <!-- Adds new files to the local working copy. Changes can then be committed to source control using the Commit command. -->
+      <!-- Valid macros: ($ScriptsFolder) ($Message) ($Files) ($Folders) -->
+      <value version="1" type="GenericHookCommand">
+        <CommandLine></CommandLine>
+        <Verify>exitCode == 0</Verify>
+      </value>
+    </element>
+    <element>
+      <key type="string">Edit</key>
+      <!-- Makes the local working copy of the file(s) available for editing. Changes can then be committed to source control using the Commit command. -->
+      <!-- Valid macros: ($ScriptsFolder) ($Message) ($Files) ($Folders) -->
+      <value version="1" type="GenericHookCommand">
+        <CommandLine></CommandLine>
+        <Verify>exitCode == 0</Verify>
+      </value>
+    </element>
+    <element>
+      <key type="string">Delete</key>
+      <!-- Deletes the file(s) from the local working copy. Changes can then be committed to source control using the Commit command. -->
+      <!-- Valid macros: ($ScriptsFolder) ($Message) ($Files) ($Folders) -->
+      <value version="1" type="GenericHookCommand">
+        <CommandLine></CommandLine>
+        <Verify>exitCode == 0</Verify>
+      </value>
+    </element>
+    <element>
+      <key type="string">Commit</key>
+      <!-- Commits all changes in the local working folder to source control. -->
+      <!-- Valid macros: ($ScriptsFolder) ($Message) -->
+      <value version="1" type="GenericHookCommand">
+        <CommandLine></CommandLine>
+        <Verify>exitCode == 0</Verify>
+      </value>
+    </element>
+    <element>
+      <key type="string">Revert</key>
+      <!-- Undoes changes if an error occurs during a commit -->
+      <!-- Valid macros: ($ScriptsFolder) -->
+      <value version="1" type="GenericHookCommand">
+        <CommandLine></CommandLine>
+        <Verify>exitCode == 0</Verify>
+      </value>
+    </element>
+  </Commands>
+</HooksConfig>

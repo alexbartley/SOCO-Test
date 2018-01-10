@@ -1,0 +1,1 @@
+CREATE SEQUENCE crapp_admin.event_id_seq;

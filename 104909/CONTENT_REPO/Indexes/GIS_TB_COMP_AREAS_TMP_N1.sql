@@ -1,0 +1,3 @@
+CREATE INDEX content_repo.gis_tb_comp_areas_tmp_n1 ON content_repo.gis_tb_comp_areas_tmp(area_id)
+
+TABLESPACE content_repo;

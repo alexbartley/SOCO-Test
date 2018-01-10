@@ -1,0 +1,28 @@
+CREATE TABLE sbxtax2.a_rate_tiers (
+  rate_tier_id NUMBER(10),
+  rate_id NUMBER(10),
+  rate NUMBER(31,10),
+  flat_fee NUMBER(31,10),
+  amount_low NUMBER(31,5),
+  amount_high NUMBER(31,5),
+  rate_code VARCHAR2(50 BYTE),
+  created_by NUMBER(10),
+  creation_date DATE,
+  last_updated_by NUMBER(10),
+  last_update_date DATE,
+  rate_tier_id_o NUMBER(10),
+  rate_id_o NUMBER(10),
+  rate_o NUMBER(31,10),
+  flat_fee_o NUMBER(31,10),
+  amount_low_o NUMBER(31,5),
+  amount_high_o NUMBER(31,5),
+  rate_code_o VARCHAR2(50 BYTE),
+  created_by_o NUMBER(10),
+  creation_date_o DATE,
+  last_updated_by_o NUMBER(10),
+  last_update_date_o DATE,
+  change_type VARCHAR2(20 BYTE) NOT NULL,
+  change_version VARCHAR2(50 BYTE),
+  change_date DATE NOT NULL
+) 
+TABLESPACE ositax;

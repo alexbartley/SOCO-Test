@@ -1,0 +1,3 @@
+CREATE MATERIALIZED VIEW content_repo.mv_jurisdiction_tax_admin ("ID",rid,juris_tax_imposition_id,administrator_id,location_id,start_date,end_date,entered_by,entered_date,nkid,next_rid,status,status_modified_date,collector_id,administrator_nkid,juris_tax_imposition_nkid,collector_nkid) 
+TABLESPACE content_repo
+AS select distinct b.* from mv_juris_tax_imps_juris a join tax_administrators b on a.juris_tax_entity_nkid = b.nkid;

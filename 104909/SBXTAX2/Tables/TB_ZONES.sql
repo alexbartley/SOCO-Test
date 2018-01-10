@@ -1,0 +1,27 @@
+CREATE TABLE sbxtax2.tb_zones (
+  zone_id NUMBER NOT NULL,
+  "NAME" VARCHAR2(50 BYTE) NOT NULL,
+  parent_zone_id NUMBER,
+  merchant_id NUMBER NOT NULL,
+  zone_level_id NUMBER,
+  created_by NUMBER(10) NOT NULL,
+  creation_date DATE NOT NULL,
+  last_updated_by NUMBER(10),
+  last_update_date DATE,
+  reverse_flag VARCHAR2(1 BYTE),
+  terminator_flag VARCHAR2(1 BYTE),
+  default_flag VARCHAR2(1 BYTE),
+  range_min NUMBER,
+  range_max NUMBER,
+  eu_zone_as_of_date DATE,
+  tax_parent_zone_id NUMBER,
+  code_2char VARCHAR2(2 BYTE),
+  code_3char VARCHAR2(3 BYTE),
+  code_iso VARCHAR2(3 BYTE),
+  code_fips VARCHAR2(30 BYTE),
+  synchronization_timestamp TIMESTAMP DEFAULT SYSTIMESTAMP,
+  eu_exit_date DATE,
+  gcc_as_of_date DATE,
+  gcc_exit_date DATE
+) 
+TABLESPACE ositax;

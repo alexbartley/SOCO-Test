@@ -1,0 +1,3 @@
+CREATE UNIQUE INDEX sbxtax.ht_prd_auth_tps_u1 ON sbxtax.ht_product_authority_types(aud_product_authority_type_id)
+
+TABLESPACE ositax;

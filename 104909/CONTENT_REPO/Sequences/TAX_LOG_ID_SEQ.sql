@@ -1,0 +1,1 @@
+CREATE SEQUENCE content_repo.tax_log_id_seq;

@@ -1,0 +1,12 @@
+CREATE OR REPLACE TRIGGER sbxtax."DT_PRODUCT_CATEGORY_CHR"
+ BEFORE 
+ INSERT OR UPDATE
+ ON sbxtax.TB_PRODUCT_CATEGORIES
+ REFERENCING OLD AS OLD NEW AS NEW
+ FOR EACH ROW
+BEGIN
+  -- Moved from ins/upd/del trigger CRAPP-3735 
+  :NEW.NAME := content_repo.fnNLSConvert(pfield=> :NEW.NAME);
+  :NEW.DESCRIPTION := content_repo.fnNLSConvert(pfield=> :NEW.DESCRIPTION);
+END;
+/

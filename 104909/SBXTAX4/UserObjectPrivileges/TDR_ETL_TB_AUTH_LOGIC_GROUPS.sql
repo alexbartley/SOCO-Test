@@ -1,0 +1,1 @@
+GRANT SELECT ON sbxtax4.tdr_etl_tb_auth_logic_groups TO datax4;

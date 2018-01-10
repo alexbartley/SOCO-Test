@@ -1,0 +1,3 @@
+CREATE UNIQUE INDEX sbxtax.exch_rate_src_u2 ON sbxtax.tb_exchange_rate_sources(merchant_id,intermediate_currency_id,source_name,service_location)
+
+TABLESPACE ositax;

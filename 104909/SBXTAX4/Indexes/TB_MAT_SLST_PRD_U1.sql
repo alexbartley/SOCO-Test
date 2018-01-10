@@ -1,0 +1,3 @@
+CREATE UNIQUE INDEX sbxtax4.tb_mat_slst_prd_u1 ON sbxtax4.tb_material_set_list_products(material_set_list_product_id)
+
+TABLESPACE ositax;

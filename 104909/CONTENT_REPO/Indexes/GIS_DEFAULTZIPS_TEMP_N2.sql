@@ -1,0 +1,3 @@
+CREATE INDEX content_repo.gis_defaultzips_temp_n2 ON content_repo.gis_defaultzips_temp(state_name)
+
+TABLESPACE content_repo;

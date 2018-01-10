@@ -1,0 +1,10 @@
+CREATE TABLE sbxtax4.crapp_1599 (
+  uuid VARCHAR2(36 CHAR),
+  rule_order NUMBER,
+  start_date DATE,
+  "ELEMENT" VARCHAR2(100 CHAR),
+  "OPERATOR" VARCHAR2(100 CHAR),
+  rq_type VARCHAR2(100 CHAR),
+  "VALUE" VARCHAR2(100 CHAR)
+) 
+TABLESPACE ositax;

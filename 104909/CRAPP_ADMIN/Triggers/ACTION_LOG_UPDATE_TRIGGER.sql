@@ -1,0 +1,10 @@
+CREATE OR REPLACE TRIGGER crapp_admin.ACTION_LOG_UPDATE_TRIGGER
+ BEFORE 
+ UPDATE
+ ON crapp_admin.ACTION_LOG
+ REFERENCING OLD AS OLD NEW AS NEW
+ FOR EACH ROW
+begin 
+    :new.action_end := sysdate;
+end;
+/

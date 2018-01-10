@@ -1,0 +1,1 @@
+CREATE SEQUENCE sbxtax.pk_tb_zone_authorities CACHE 10;

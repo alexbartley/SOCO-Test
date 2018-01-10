@@ -1,0 +1,3 @@
+CREATE UNIQUE INDEX sbxtax.ht_a_lgc_elems_u1 ON sbxtax.ht_authority_logic_elements(aud_authority_logic_element_id)
+
+TABLESPACE ositax;

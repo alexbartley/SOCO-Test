@@ -1,0 +1,3 @@
+CREATE INDEX content_repo.admin_chg_vlds_ei ON content_repo.admin_chg_vlds(admin_chg_log_id,assignment_type_id)
+
+TABLESPACE content_repo;

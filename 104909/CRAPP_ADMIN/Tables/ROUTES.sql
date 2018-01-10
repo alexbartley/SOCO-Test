@@ -1,0 +1,9 @@
+CREATE TABLE crapp_admin.routes (
+  "ID" NUMBER NOT NULL,
+  route VARCHAR2(255 CHAR) NOT NULL,
+  "ROLES" VARCHAR2(255 CHAR) NOT NULL,
+  status NUMBER DEFAULT 0,
+  CONSTRAINT routes_pk PRIMARY KEY ("ID") USING INDEX 
+    TABLESPACE crapp_admin
+) 
+TABLESPACE crapp_admin;

@@ -1,0 +1,1 @@
+CREATE SEQUENCE sbxtax4.pk_etl_proc_log NOCACHE;

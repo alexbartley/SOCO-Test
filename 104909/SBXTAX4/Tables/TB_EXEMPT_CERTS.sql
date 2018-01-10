@@ -1,0 +1,37 @@
+CREATE TABLE sbxtax4.tb_exempt_certs (
+  exempt_cert_id NUMBER NOT NULL,
+  certificate_comment VARCHAR2(2000 CHAR),
+  customer_id NUMBER NOT NULL,
+  certificate_number VARCHAR2(100 CHAR),
+  purch_license_number VARCHAR2(100 CHAR),
+  purch_reg_tax_id VARCHAR2(100 CHAR),
+  seller_name VARCHAR2(100 CHAR),
+  seller_number VARCHAR2(100 CHAR),
+  seller_dba_name VARCHAR2(100 CHAR),
+  seller_license_number VARCHAR2(100 CHAR),
+  seller_reg_tax_id VARCHAR2(100 CHAR),
+  cert_use VARCHAR2(1 CHAR) NOT NULL,
+  from_date DATE NOT NULL,
+  "TO_DATE" DATE,
+  exempt_reason_id NUMBER,
+  fully_exempt VARCHAR2(1 CHAR),
+  "ACTIVE" VARCHAR2(1 CHAR),
+  status VARCHAR2(1 CHAR) NOT NULL,
+  type_of_business VARCHAR2(200 CHAR),
+  prod_incl_excl_flag VARCHAR2(1 CHAR),
+  file_id NUMBER,
+  created_by NUMBER(10) NOT NULL,
+  creation_date DATE NOT NULL,
+  last_updated_by NUMBER(10),
+  last_update_date DATE,
+  basis_perc NUMBER(31,10),
+  currency_id NUMBER,
+  exempt_amount NUMBER(31,5),
+  cert_url VARCHAR2(1000 CHAR),
+  content_type VARCHAR2(50 CHAR) NOT NULL,
+  "LOCKED" VARCHAR2(1 CHAR),
+  synchronization_timestamp TIMESTAMP DEFAULT SYSTIMESTAMP
+) 
+TABLESPACE ositax
+LOB (certificate_comment) STORE AS SECUREFILE (
+  ENABLE STORAGE IN ROW);

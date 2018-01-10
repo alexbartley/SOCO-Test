@@ -1,0 +1,3 @@
+CREATE UNIQUE INDEX sbxtax4.tc_qual_group_u1 ON sbxtax4.tb_tax_code_qualifier_groups(tax_code_qualifier_group_id)
+
+TABLESPACE ositax;

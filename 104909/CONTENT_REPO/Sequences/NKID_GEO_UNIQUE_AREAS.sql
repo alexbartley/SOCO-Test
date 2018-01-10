@@ -1,0 +1,1 @@
+CREATE SEQUENCE content_repo.nkid_geo_unique_areas NOCACHE;

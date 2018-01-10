@@ -1,0 +1,1 @@
+CREATE SEQUENCE crapp_admin.action_log_id_seq MINVALUE 0;

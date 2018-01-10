@@ -1,0 +1,3 @@
+CREATE INDEX content_repo.tran_tax_qualifiers_n2 ON content_repo.tran_tax_qualifiers(juris_tax_applicability_nkid)
+
+TABLESPACE content_repo;

@@ -1,0 +1,1 @@
+CREATE SEQUENCE content_repo.update_multiple_process_sq;

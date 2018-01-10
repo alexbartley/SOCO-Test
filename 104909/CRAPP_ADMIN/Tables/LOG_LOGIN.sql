@@ -1,0 +1,12 @@
+CREATE TABLE crapp_admin.log_login (
+  "ID" NUMBER NOT NULL,
+  message VARCHAR2(4000 CHAR),
+  "PRIORITY" NUMBER(1),
+  "IDENTITY" VARCHAR2(16 CHAR),
+  entered_date TIMESTAMP,
+  CONSTRAINT log_login_pk PRIMARY KEY ("ID") USING INDEX 
+    TABLESPACE crapp_admin
+) 
+TABLESPACE crapp_admin
+LOB (message) STORE AS SECUREFILE (
+  ENABLE STORAGE IN ROW);

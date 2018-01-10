@@ -1,0 +1,3 @@
+CREATE INDEX content_repo.osr_zone_authorities_tmp_n1 ON content_repo.osr_zone_authorities_tmp(state_code,zone_4_name,zone_5_name,zone_6_name,authority_name)
+
+TABLESPACE content_repo;

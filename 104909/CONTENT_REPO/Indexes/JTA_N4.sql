@@ -1,0 +1,3 @@
+CREATE INDEX content_repo.jta_n4 ON content_repo.juris_tax_applicabilities(reference_code,jurisdiction_id)
+
+TABLESPACE content_repo;

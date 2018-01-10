@@ -1,0 +1,3 @@
+CREATE UNIQUE INDEX sbxtax3.ht_a_tp_aliases_u1 ON sbxtax3.ht_authority_type_aliases(aud_authority_type_alias_id)
+
+TABLESPACE ositax;

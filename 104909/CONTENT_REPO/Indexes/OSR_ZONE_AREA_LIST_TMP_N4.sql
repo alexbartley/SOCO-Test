@@ -1,0 +1,3 @@
+CREATE INDEX content_repo.osr_zone_area_list_tmp_n4 ON content_repo.osr_zone_area_list_tmp(state_code,zip4)
+
+TABLESPACE content_repo;

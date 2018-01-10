@@ -1,0 +1,3 @@
+CREATE UNIQUE INDEX content_repo.tax_calculation_structures_un ON content_repo.tax_calculation_structures(amount_type_id,tax_structure_type_id)
+
+TABLESPACE content_repo;

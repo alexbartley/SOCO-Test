@@ -1,0 +1,1 @@
+CREATE SEQUENCE content_repo.nkid_dev_juris_revisions NOCACHE;

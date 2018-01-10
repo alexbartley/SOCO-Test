@@ -1,0 +1,1 @@
+CREATE SEQUENCE sbxtax4.datax_record_seq;

@@ -1,0 +1,3 @@
+CREATE INDEX content_repo.geo_unique_area_rev_n1 ON content_repo.geo_unique_area_revisions(nkid)
+
+TABLESPACE content_repo;

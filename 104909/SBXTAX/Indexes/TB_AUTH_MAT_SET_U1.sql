@@ -1,0 +1,3 @@
+CREATE UNIQUE INDEX sbxtax.tb_auth_mat_set_u1 ON sbxtax.tb_authority_material_sets(authority_material_set_id)
+
+TABLESPACE ositax;

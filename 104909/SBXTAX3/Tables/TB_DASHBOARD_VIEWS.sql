@@ -1,0 +1,26 @@
+CREATE TABLE sbxtax3.tb_dashboard_views (
+  "INTERVAL" VARCHAR2(20 BYTE),
+  dashboard_view_id NUMBER(10) NOT NULL,
+  view_name VARCHAR2(100 BYTE) NOT NULL,
+  merchant_id NUMBER(10) NOT NULL,
+  private_flag VARCHAR2(1 BYTE),
+  currency_id NUMBER(10) NOT NULL,
+  tax_direction VARCHAR2(1 BYTE),
+  date_type VARCHAR2(1 BYTE),
+  from_date DATE,
+  "TO_DATE" DATE,
+  "ROLE" VARCHAR2(2 BYTE),
+  top_regions VARCHAR2(2 BYTE),
+  taxable_amount VARCHAR2(1 BYTE),
+  exempt_amount VARCHAR2(1 BYTE),
+  tax_amount VARCHAR2(1 BYTE),
+  gross_amount VARCHAR2(1 BYTE),
+  recoverable_amount VARCHAR2(1 BYTE),
+  creation_date DATE,
+  created_by NUMBER(10),
+  last_update_date DATE,
+  last_updated_by NUMBER(10),
+  tax_data_type VARCHAR2(5 BYTE),
+  external_flag VARCHAR2(1 BYTE)
+) 
+TABLESPACE ositax;

@@ -1,0 +1,1 @@
+CREATE SEQUENCE crapp_admin.user_defaults_seq;

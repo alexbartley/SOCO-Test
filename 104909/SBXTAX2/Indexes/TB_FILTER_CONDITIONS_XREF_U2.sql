@@ -1,0 +1,3 @@
+CREATE UNIQUE INDEX sbxtax2.tb_filter_conditions_xref_u2 ON sbxtax2.tb_filter_conditions_xref(ordering,fc_xref_id,parent_fc_xref_id,merchant_id)
+
+TABLESPACE ositax;

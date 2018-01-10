@@ -1,0 +1,3 @@
+CREATE INDEX content_repo.geo_poly_ref_chg_vlds_n1 ON content_repo.geo_poly_ref_chg_vlds(geo_poly_ref_chg_log_id)
+
+TABLESPACE content_repo;

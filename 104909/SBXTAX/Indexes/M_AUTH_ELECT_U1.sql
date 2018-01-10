@@ -1,0 +1,3 @@
+CREATE UNIQUE INDEX sbxtax.m_auth_elect_u1 ON sbxtax.tb_merchant_authority_elects(merchant_authority_elect_id)
+
+TABLESPACE ositax;

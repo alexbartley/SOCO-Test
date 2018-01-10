@@ -1,0 +1,1 @@
+CREATE SEQUENCE content_repo.pk_delete_logs NOCACHE;

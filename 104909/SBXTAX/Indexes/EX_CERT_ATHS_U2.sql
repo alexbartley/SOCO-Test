@@ -1,0 +1,3 @@
+CREATE UNIQUE INDEX sbxtax.ex_cert_aths_u2 ON sbxtax.tb_exempt_cert_authorities(exempt_cert_id,exempt_cert_authority_type_id,authority_id)
+
+TABLESPACE ositax;

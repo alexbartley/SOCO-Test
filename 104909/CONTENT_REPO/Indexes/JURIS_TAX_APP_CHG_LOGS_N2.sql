@@ -1,0 +1,3 @@
+CREATE INDEX content_repo.juris_tax_app_chg_logs_n2 ON content_repo.juris_tax_app_chg_logs(rid)
+
+TABLESPACE content_repo;

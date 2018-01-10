@@ -1,0 +1,3 @@
+CREATE UNIQUE INDEX sbxtax3.scen_ln_regs_u1 ON sbxtax3.tb_scenario_line_registrations(scenario_line_registration_id)
+
+TABLESPACE ositax;

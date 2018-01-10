@@ -1,0 +1,1 @@
+CREATE SEQUENCE content_repo.pk_change_logs NOCACHE;

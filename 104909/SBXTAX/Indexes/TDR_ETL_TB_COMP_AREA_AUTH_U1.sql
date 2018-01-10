@@ -1,0 +1,2 @@
+CREATE UNIQUE INDEX sbxtax.tdr_etl_tb_comp_area_auth_u1 ON sbxtax.tdr_etl_tb_comp_area_auths(compliance_area_id,authority_id)
+TABLESPACE ositax;

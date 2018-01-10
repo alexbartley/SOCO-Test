@@ -1,0 +1,3 @@
+CREATE UNIQUE INDEX sbxtax4.ht_ex_crt_a_tps_u1 ON sbxtax4.ht_exempt_cert_authority_types(aud_exempt_cert_auth_type_id)
+
+TABLESPACE ositax;

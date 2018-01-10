@@ -1,0 +1,3 @@
+CREATE INDEX content_repo.gis_stj_lookup_n1 ON content_repo.gis_stj_lookup(location_code,authority_name)
+
+TABLESPACE content_repo;

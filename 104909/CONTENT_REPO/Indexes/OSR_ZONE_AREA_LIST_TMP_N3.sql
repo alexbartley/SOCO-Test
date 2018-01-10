@@ -1,0 +1,3 @@
+CREATE INDEX content_repo.osr_zone_area_list_tmp_n3 ON content_repo.osr_zone_area_list_tmp(jurisdiction_id,geo_area)
+
+TABLESPACE content_repo;

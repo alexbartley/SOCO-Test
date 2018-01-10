@@ -1,0 +1,3 @@
+CREATE INDEX content_repo.gis_zone_auth_range_tmp_n1 ON content_repo.gis_zone_authority_range_tmp(unique_area,zone_3_name,zone_4_name,zone_5_name,zone_6_name,range_min,range_max)
+
+TABLESPACE content_repo;

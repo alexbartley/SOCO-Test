@@ -1,0 +1,3 @@
+CREATE INDEX content_repo.gis_zone_auth_tmp_n3 ON content_repo.gis_zone_authorities_tmp(zone_3_name,zone_7_name,reverse_flag)
+
+TABLESPACE content_repo;

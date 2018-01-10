@@ -1,0 +1,26 @@
+CREATE TABLE sbxtax.a_reference_values (
+  reference_value_id NUMBER,
+  reference_list_id NUMBER,
+  "VALUE" VARCHAR2(200 CHAR),
+  start_date DATE,
+  end_date DATE,
+  created_by NUMBER,
+  creation_date DATE,
+  last_updated_by NUMBER,
+  last_update_date DATE,
+  synchronization_timestamp TIMESTAMP,
+  reference_value_id_o NUMBER,
+  reference_list_id_o NUMBER,
+  value_o VARCHAR2(200 CHAR),
+  start_date_o DATE,
+  end_date_o DATE,
+  created_by_o NUMBER,
+  creation_date_o DATE,
+  last_updated_by_o NUMBER,
+  last_update_date_o DATE,
+  synchronization_timestamp_o TIMESTAMP,
+  change_type VARCHAR2(20 CHAR) NOT NULL,
+  change_version VARCHAR2(50 CHAR),
+  change_date DATE NOT NULL
+) 
+TABLESPACE ositax;

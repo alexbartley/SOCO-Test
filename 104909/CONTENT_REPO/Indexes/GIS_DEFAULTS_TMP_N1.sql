@@ -1,0 +1,3 @@
+CREATE INDEX content_repo.gis_defaults_tmp_n1 ON content_repo.gis_defaults_tmp(zone_6_name,default_flag)
+
+TABLESPACE content_repo;

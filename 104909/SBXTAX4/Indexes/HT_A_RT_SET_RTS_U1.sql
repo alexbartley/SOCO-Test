@@ -1,0 +1,3 @@
+CREATE UNIQUE INDEX sbxtax4.ht_a_rt_set_rts_u1 ON sbxtax4.ht_authority_rate_set_rates(aud_authority_rate_set_rate_id)
+
+TABLESPACE ositax;

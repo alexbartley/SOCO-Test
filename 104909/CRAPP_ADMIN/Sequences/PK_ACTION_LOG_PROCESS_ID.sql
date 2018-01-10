@@ -1,0 +1,1 @@
+CREATE SEQUENCE crapp_admin.pk_action_log_process_id;

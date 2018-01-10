@@ -1,0 +1,27 @@
+CREATE TABLE sbxtax4.tmp_rules_l (
+  "ID" NUMBER,
+  authority_uuid VARCHAR2(36 CHAR),
+  calculation_method NUMBER,
+  basis_percent NUMBER,
+  rate_code VARCHAR2(32 CHAR),
+  "EXEMPT" VARCHAR2(1 CHAR),
+  no_tax VARCHAR2(1 CHAR),
+  tax_type VARCHAR2(16 CHAR),
+  start_date DATE,
+  end_date DATE,
+  recoverable_percent NUMBER,
+  rule_order NUMBER,
+  tas_nkid NUMBER,
+  commodity_nkid NUMBER,
+  highest VARCHAR2(2 CHAR),
+  hierarchy_level NUMBER,
+  sibling_order NUMBER,
+  rule_qualifier_set VARCHAR2(1000 CHAR),
+  rule_qual_order NUMBER,
+  is_local VARCHAR2(1 CHAR),
+  nkid NUMBER,
+  commodity_group_id NUMBER,
+  extract_id NUMBER,
+  rid NUMBER
+) 
+TABLESPACE ositax;

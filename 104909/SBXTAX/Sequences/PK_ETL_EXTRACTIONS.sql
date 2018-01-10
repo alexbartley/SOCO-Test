@@ -1,0 +1,1 @@
+CREATE SEQUENCE sbxtax.pk_etl_extractions;

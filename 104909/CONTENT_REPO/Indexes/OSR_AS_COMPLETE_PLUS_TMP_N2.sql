@@ -1,0 +1,130 @@
+CREATE INDEX content_repo.osr_as_complete_plus_tmp_n2 ON content_repo.osr_as_complete_plus_tmp(state_code,zip_code,uaid)
+
+LOCAL (PARTITION os_cmpt_aa
+  TABLESPACE content_repo,
+PARTITION os_cmpt_ae
+  TABLESPACE content_repo,
+PARTITION os_cmpt_ak
+  TABLESPACE content_repo,
+PARTITION os_cmpt_al
+  TABLESPACE content_repo,
+PARTITION os_cmpt_ap
+  TABLESPACE content_repo,
+PARTITION os_cmpt_ar
+  TABLESPACE content_repo,
+PARTITION os_cmpt_as
+  TABLESPACE content_repo,
+PARTITION os_cmpt_az
+  TABLESPACE content_repo,
+PARTITION os_cmpt_ca
+  TABLESPACE content_repo,
+PARTITION os_cmpt_co
+  TABLESPACE content_repo,
+PARTITION os_cmpt_ct
+  TABLESPACE content_repo,
+PARTITION os_cmpt_de
+  TABLESPACE content_repo,
+PARTITION os_cmpt_dc
+  TABLESPACE content_repo,
+PARTITION os_cmpt_fl
+  TABLESPACE content_repo,
+PARTITION os_cmpt_fm
+  TABLESPACE content_repo,
+PARTITION os_cmpt_ga
+  TABLESPACE content_repo,
+PARTITION os_cmpt_gu
+  TABLESPACE content_repo,
+PARTITION os_cmpt_hi
+  TABLESPACE content_repo,
+PARTITION os_cmpt_id
+  TABLESPACE content_repo,
+PARTITION os_cmpt_il
+  TABLESPACE content_repo,
+PARTITION os_cmpt_in
+  TABLESPACE content_repo,
+PARTITION os_cmpt_ia
+  TABLESPACE content_repo,
+PARTITION os_cmpt_ks
+  TABLESPACE content_repo,
+PARTITION os_cmpt_ky
+  TABLESPACE content_repo,
+PARTITION os_cmpt_la
+  TABLESPACE content_repo,
+PARTITION os_cmpt_me
+  TABLESPACE content_repo,
+PARTITION os_cmpt_md
+  TABLESPACE content_repo,
+PARTITION os_cmpt_ma
+  TABLESPACE content_repo,
+PARTITION os_cmpt_mh
+  TABLESPACE content_repo,
+PARTITION os_cmpt_mi
+  TABLESPACE content_repo,
+PARTITION os_cmpt_mn
+  TABLESPACE content_repo,
+PARTITION os_cmpt_ms
+  TABLESPACE content_repo,
+PARTITION os_cmpt_mo
+  TABLESPACE content_repo,
+PARTITION os_cmpt_mp
+  TABLESPACE content_repo,
+PARTITION os_cmpt_mt
+  TABLESPACE content_repo,
+PARTITION os_cmpt_ne
+  TABLESPACE content_repo,
+PARTITION os_cmpt_nv
+  TABLESPACE content_repo,
+PARTITION os_cmpt_nh
+  TABLESPACE content_repo,
+PARTITION os_cmpt_nj
+  TABLESPACE content_repo,
+PARTITION os_cmpt_nm
+  TABLESPACE content_repo,
+PARTITION os_cmpt_ny
+  TABLESPACE content_repo,
+PARTITION os_cmpt_nc
+  TABLESPACE content_repo,
+PARTITION os_cmpt_nd
+  TABLESPACE content_repo,
+PARTITION os_cmpt_oh
+  TABLESPACE content_repo,
+PARTITION os_cmpt_ok
+  TABLESPACE content_repo,
+PARTITION os_cmpt_or
+  TABLESPACE content_repo,
+PARTITION os_cmpt_pa
+  TABLESPACE content_repo,
+PARTITION os_cmpt_pr
+  TABLESPACE content_repo,
+PARTITION os_cmpt_pw
+  TABLESPACE content_repo,
+PARTITION os_cmpt_ri
+  TABLESPACE content_repo,
+PARTITION os_cmpt_sc
+  TABLESPACE content_repo,
+PARTITION os_cmpt_sd
+  TABLESPACE content_repo,
+PARTITION os_cmpt_tn
+  TABLESPACE content_repo,
+PARTITION os_cmpt_tx
+  TABLESPACE content_repo,
+PARTITION os_cmpt_ut
+  TABLESPACE content_repo,
+PARTITION os_cmpt_va
+  TABLESPACE content_repo,
+PARTITION os_cmpt_vi
+  TABLESPACE content_repo,
+PARTITION os_cmpt_vt
+  TABLESPACE content_repo,
+PARTITION os_cmpt_wa
+  TABLESPACE content_repo,
+PARTITION os_cmpt_wi
+  TABLESPACE content_repo,
+PARTITION os_cmpt_wv
+  TABLESPACE content_repo,
+PARTITION os_cmpt_wy
+  TABLESPACE content_repo,
+PARTITION os_cmpt_us
+  TABLESPACE content_repo,
+PARTITION os_cmpt_x0
+  TABLESPACE content_repo);

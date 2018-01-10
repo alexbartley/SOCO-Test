@@ -1,0 +1,1 @@
+GRANT SELECT ON sbxtax4.tdr_etl_rule_taxes TO datax4;

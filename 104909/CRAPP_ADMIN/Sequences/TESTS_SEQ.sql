@@ -1,0 +1,1 @@
+CREATE SEQUENCE crapp_admin.tests_seq;

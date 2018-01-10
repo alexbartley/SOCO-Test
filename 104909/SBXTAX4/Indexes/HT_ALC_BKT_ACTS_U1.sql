@@ -1,0 +1,3 @@
+CREATE UNIQUE INDEX sbxtax4.ht_alc_bkt_acts_u1 ON sbxtax4.ht_alloc_bucket_actions(aud_alloc_bucket_action_id)
+
+TABLESPACE ositax;

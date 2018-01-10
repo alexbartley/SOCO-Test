@@ -1,0 +1,1 @@
+GRANT SELECT ON sbxtax.tdr_etl_ct_product_tree TO datax;

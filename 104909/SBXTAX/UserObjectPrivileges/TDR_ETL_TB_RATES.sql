@@ -1,0 +1,1 @@
+GRANT SELECT ON sbxtax.tdr_etl_tb_rates TO datax;

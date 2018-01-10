@@ -1,0 +1,7 @@
+CREATE TABLE content_repo.ref_mapping (
+  "NAME" VARCHAR2(2000 CHAR),
+  refcode VARCHAR2(15 CHAR)
+) 
+TABLESPACE content_repo
+LOB ("NAME") STORE AS SECUREFILE (
+  ENABLE STORAGE IN ROW);

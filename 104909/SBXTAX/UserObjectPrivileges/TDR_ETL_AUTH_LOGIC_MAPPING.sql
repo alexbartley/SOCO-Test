@@ -1,0 +1,1 @@
+GRANT SELECT ON sbxtax.tdr_etl_auth_logic_mapping TO datax;

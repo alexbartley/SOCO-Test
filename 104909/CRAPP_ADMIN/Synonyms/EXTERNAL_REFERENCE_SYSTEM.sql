@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM crapp_admin.external_reference_system FOR content_repo.external_reference_system;

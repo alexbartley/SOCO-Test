@@ -1,0 +1,1 @@
+CREATE SEQUENCE sbxtax2.content_journal_id_seq;

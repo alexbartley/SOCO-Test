@@ -1,0 +1,1 @@
+CREATE SEQUENCE crapp_admin.run_hist_seq;

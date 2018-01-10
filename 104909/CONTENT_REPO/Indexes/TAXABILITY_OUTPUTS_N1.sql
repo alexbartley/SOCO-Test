@@ -1,0 +1,3 @@
+CREATE INDEX content_repo.taxability_outputs_n1 ON content_repo.taxability_outputs(juris_tax_applicability_id)
+
+TABLESPACE content_repo;

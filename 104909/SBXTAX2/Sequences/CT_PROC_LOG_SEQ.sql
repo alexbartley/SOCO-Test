@@ -1,0 +1,1 @@
+CREATE SEQUENCE sbxtax2.ct_proc_log_seq;

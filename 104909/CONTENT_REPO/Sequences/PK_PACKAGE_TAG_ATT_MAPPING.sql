@@ -1,0 +1,1 @@
+CREATE SEQUENCE content_repo.pk_package_tag_att_mapping NOCACHE;

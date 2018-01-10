@@ -1,0 +1,1 @@
+CREATE SEQUENCE content_repo.nkid_package_tag_table_mapping NOCACHE;

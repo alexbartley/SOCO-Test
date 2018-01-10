@@ -1,0 +1,13 @@
+CREATE OR REPLACE TRIGGER content_repo."INS_ATTACHMENTS" 
+ BEFORE 
+ INSERT
+ ON content_repo.ATTACHMENTS
+ REFERENCING OLD AS OLD NEW AS NEW
+ FOR EACH ROW 
+BEGIN
+
+:new.id := pk_ATTACHMENTS.nextval;
+:new.entered_date := SYSTIMESTAMP;
+:new.status_modified_date := SYSTIMESTAMP;
+END;
+/

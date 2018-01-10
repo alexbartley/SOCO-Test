@@ -1,0 +1,15 @@
+CREATE TABLE crapp_admin.event (
+  "ID" NUMBER NOT NULL,
+  event VARCHAR2(2000 CHAR) NOT NULL,
+  params VARCHAR2(4000 CHAR),
+  entered_by NUMBER NOT NULL,
+  creation_time TIMESTAMP NOT NULL,
+  expiration_time TIMESTAMP NOT NULL,
+  status NUMBER(1),
+  CONSTRAINT event_fk1 FOREIGN KEY (entered_by) REFERENCES crapp_admin."USERS" ("ID")
+) 
+TABLESPACE crapp_admin
+LOB (event) STORE AS SECUREFILE (
+  ENABLE STORAGE IN ROW)
+LOB (params) STORE AS SECUREFILE (
+  ENABLE STORAGE IN ROW);

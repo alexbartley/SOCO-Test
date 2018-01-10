@@ -1,0 +1,1 @@
+CREATE SEQUENCE content_repo.pk_tax_structure_types NOCACHE;

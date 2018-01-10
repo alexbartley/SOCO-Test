@@ -1,0 +1,3 @@
+CREATE UNIQUE INDEX sbxtax.ath_lgc_grp_x_u1 ON sbxtax.tb_authority_logic_group_xref(authority_logic_group_xref_id)
+
+TABLESPACE ositax;

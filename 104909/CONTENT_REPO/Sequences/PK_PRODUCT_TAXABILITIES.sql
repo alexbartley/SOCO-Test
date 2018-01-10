@@ -1,0 +1,1 @@
+CREATE SEQUENCE content_repo.pk_product_taxabilities MAXVALUE 99999999999999999999 NOCACHE;

@@ -1,0 +1,1 @@
+GRANT SELECT ON sbxtax.tdr_etl_prod_changes TO datax;

@@ -1,0 +1,3 @@
+CREATE INDEX content_repo.jurisdiction_attributes_n1 ON content_repo.jurisdiction_attributes(jurisdiction_id,attribute_id)
+
+TABLESPACE content_repo;

@@ -1,0 +1,3 @@
+CREATE INDEX content_repo.gis_zone_tree_tmp_n1 ON content_repo.gis_zone_tree_tmp(zone_6_id,zone_7_name)
+
+TABLESPACE content_repo;

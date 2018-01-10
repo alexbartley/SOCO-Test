@@ -1,0 +1,3 @@
+CREATE UNIQUE INDEX sbxtax4.ht_prd_ql_grps_u1 ON sbxtax4.ht_product_qualifier_groups(aud_product_qualifier_group_id)
+
+TABLESPACE ositax;

@@ -1,0 +1,3 @@
+CREATE INDEX content_repo.unique_area_polygons_n2 ON content_repo.unique_area_polygons(unique_area_id)
+
+TABLESPACE content_repo;

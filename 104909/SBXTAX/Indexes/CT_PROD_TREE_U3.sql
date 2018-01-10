@@ -1,0 +1,3 @@
+CREATE INDEX sbxtax.ct_prod_tree_u3 ON sbxtax.ct_product_tree(product_9_name,product_8_name,product_7_name,product_6_name,product_5_name,product_4_name,product_3_name,product_2_name,product_1_name)
+
+TABLESPACE ositax;

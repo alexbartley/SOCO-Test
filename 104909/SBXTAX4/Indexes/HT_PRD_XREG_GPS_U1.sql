@@ -1,0 +1,3 @@
+CREATE UNIQUE INDEX sbxtax4.ht_prd_xreg_gps_u1 ON sbxtax4.ht_product_cross_ref_groups(aud_product_cross_ref_group_id)
+
+TABLESPACE ositax;

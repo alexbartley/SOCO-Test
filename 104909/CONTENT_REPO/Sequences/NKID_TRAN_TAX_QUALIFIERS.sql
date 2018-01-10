@@ -1,0 +1,1 @@
+CREATE SEQUENCE content_repo.nkid_tran_tax_qualifiers NOCACHE;

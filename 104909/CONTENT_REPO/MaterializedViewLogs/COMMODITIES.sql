@@ -1,0 +1,3 @@
+CREATE MATERIALIZED VIEW LOG ON content_repo.commodities
+TABLESPACE content_repo
+  WITH PRIMARY KEY, ROWID;

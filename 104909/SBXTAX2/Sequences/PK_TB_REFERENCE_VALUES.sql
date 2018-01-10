@@ -1,0 +1,1 @@
+CREATE SEQUENCE sbxtax2.pk_tb_reference_values MAXVALUE 2000001702 MINVALUE 0;

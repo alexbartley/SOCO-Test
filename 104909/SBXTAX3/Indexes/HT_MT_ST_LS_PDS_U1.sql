@@ -1,0 +1,3 @@
+CREATE UNIQUE INDEX sbxtax3.ht_mt_st_ls_pds_u1 ON sbxtax3.ht_material_set_list_products(aud_material_set_list_prod_id)
+
+TABLESPACE ositax;

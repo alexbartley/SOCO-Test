@@ -1,0 +1,3 @@
+CREATE INDEX content_repo.gis_stj_authmap_lookup_n1 ON content_repo.gis_stj_authmap_lookup(state_code,location_code)
+
+TABLESPACE content_repo;

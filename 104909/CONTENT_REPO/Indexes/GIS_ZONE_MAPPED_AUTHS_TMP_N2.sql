@@ -1,0 +1,3 @@
+CREATE INDEX content_repo.gis_zone_mapped_auths_tmp_n2 ON content_repo.gis_zone_mapped_auths_tmp(jurisdiction_nkid)
+
+TABLESPACE content_repo;

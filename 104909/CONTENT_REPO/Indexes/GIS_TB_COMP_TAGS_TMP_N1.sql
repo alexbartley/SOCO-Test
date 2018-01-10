@@ -1,0 +1,3 @@
+CREATE INDEX content_repo.gis_tb_comp_tags_tmp_n1 ON content_repo.gis_tb_comp_tags_tmp(ref_nkid)
+
+TABLESPACE content_repo;

@@ -1,0 +1,12 @@
+CREATE TABLE crapp_admin.resources (
+  "ID" NUMBER NOT NULL,
+  resource_id VARCHAR2(255 CHAR) NOT NULL,
+  "PARENT" VARCHAR2(255 CHAR),
+  status NUMBER DEFAULT 0,
+  route VARCHAR2(255 CHAR),
+  "NAME" VARCHAR2(255 CHAR),
+  description VARCHAR2(1000 CHAR),
+  CONSTRAINT resources_pk PRIMARY KEY ("ID") USING INDEX 
+    TABLESPACE crapp_admin
+) 
+TABLESPACE crapp_admin;

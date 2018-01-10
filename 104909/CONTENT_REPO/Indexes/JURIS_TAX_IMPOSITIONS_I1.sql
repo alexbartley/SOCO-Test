@@ -1,0 +1,3 @@
+CREATE INDEX content_repo.juris_tax_impositions_i1 ON content_repo.juris_tax_impositions(next_rid)
+
+TABLESPACE content_repo;

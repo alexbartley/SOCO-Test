@@ -1,0 +1,3 @@
+CREATE INDEX content_repo.kpmg_ext_area_detail_i3 ON content_repo.kpmg_ext_area_detail(state_code)
+
+TABLESPACE content_repo;

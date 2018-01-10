@@ -1,0 +1,1 @@
+CREATE SEQUENCE content_repo.pk_dev_juris_revisions NOCACHE;

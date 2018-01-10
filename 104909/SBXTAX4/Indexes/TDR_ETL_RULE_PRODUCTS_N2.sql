@@ -1,0 +1,2 @@
+CREATE INDEX sbxtax4.tdr_etl_rule_products_n2 ON sbxtax4.tdr_etl_rule_products(nkid,rate_code,hierarchy_level)
+TABLESPACE ositax;

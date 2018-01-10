@@ -1,0 +1,3 @@
+CREATE INDEX content_repo.juris_tax_impositions_u1 ON content_repo.juris_tax_impositions(jurisdiction_id,tax_description_id,reference_code,start_date)
+
+TABLESPACE content_repo;

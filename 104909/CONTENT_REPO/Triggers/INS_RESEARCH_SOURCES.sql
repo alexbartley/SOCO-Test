@@ -1,0 +1,14 @@
+CREATE OR REPLACE TRIGGER content_repo."INS_RESEARCH_SOURCES" 
+ BEFORE 
+ INSERT
+ ON content_repo.RESEARCH_SOURCES
+ REFERENCING OLD AS OLD NEW AS NEW
+ FOR EACH ROW 
+BEGIN
+
+:new.id := pk_RESEARCH_SOURCES.nextval;
+:new.entered_date := SYSTIMESTAMP;
+:new.status_modified_date := SYSTIMESTAMP;
+
+END;
+/

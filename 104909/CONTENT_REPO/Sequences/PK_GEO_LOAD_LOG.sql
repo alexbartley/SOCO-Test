@@ -1,0 +1,1 @@
+CREATE SEQUENCE content_repo.pk_geo_load_log NOCACHE;

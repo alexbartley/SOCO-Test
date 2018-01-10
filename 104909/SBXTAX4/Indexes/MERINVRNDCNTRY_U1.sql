@@ -1,0 +1,3 @@
+CREATE UNIQUE INDEX sbxtax4.merinvrndcntry_u1 ON sbxtax4.tb_merchant_inv_rnd_countries(merchant_inv_rnd_country_id)
+
+TABLESPACE ositax;

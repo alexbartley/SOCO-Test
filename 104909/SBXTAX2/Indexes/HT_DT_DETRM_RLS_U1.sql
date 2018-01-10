@@ -1,0 +1,3 @@
+CREATE UNIQUE INDEX sbxtax2.ht_dt_detrm_rls_u1 ON sbxtax2.ht_date_determination_rules(aud_date_determination_rule_id)
+
+TABLESPACE ositax;

@@ -1,0 +1,3 @@
+CREATE INDEX content_repo.osr_zone_detail_tmp_n6 ON content_repo.osr_zone_detail_tmp(state_code,county_name,city_name,zip,area_id,default_flag)
+
+TABLESPACE content_repo;

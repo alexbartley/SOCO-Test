@@ -1,0 +1,1 @@
+CREATE SEQUENCE content_repo.comm_copy_to_grp_sq;

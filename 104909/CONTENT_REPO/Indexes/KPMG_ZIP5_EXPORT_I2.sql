@@ -1,0 +1,104 @@
+CREATE INDEX content_repo.kpmg_zip5_export_i2 ON content_repo.kpmg_zip5_export(state_code,zip)
+
+LOCAL (PARTITION state_al
+  TABLESPACE content_repo,
+PARTITION state_ak
+  TABLESPACE content_repo,
+PARTITION state_az
+  TABLESPACE content_repo,
+PARTITION state_ar
+  TABLESPACE content_repo,
+PARTITION state_ca
+  TABLESPACE content_repo,
+PARTITION state_co
+  TABLESPACE content_repo,
+PARTITION state_ct
+  TABLESPACE content_repo,
+PARTITION state_de
+  TABLESPACE content_repo,
+PARTITION state_dc
+  TABLESPACE content_repo,
+PARTITION state_fl
+  TABLESPACE content_repo,
+PARTITION state_ga
+  TABLESPACE content_repo,
+PARTITION state_hi
+  TABLESPACE content_repo,
+PARTITION state_id
+  TABLESPACE content_repo,
+PARTITION state_il
+  TABLESPACE content_repo,
+PARTITION state_in
+  TABLESPACE content_repo,
+PARTITION state_ia
+  TABLESPACE content_repo,
+PARTITION state_ks
+  TABLESPACE content_repo,
+PARTITION state_ky
+  TABLESPACE content_repo,
+PARTITION state_la
+  TABLESPACE content_repo,
+PARTITION state_me
+  TABLESPACE content_repo,
+PARTITION state_md
+  TABLESPACE content_repo,
+PARTITION state_ma
+  TABLESPACE content_repo,
+PARTITION state_mi
+  TABLESPACE content_repo,
+PARTITION state_mn
+  TABLESPACE content_repo,
+PARTITION state_ms
+  TABLESPACE content_repo,
+PARTITION state_mo
+  TABLESPACE content_repo,
+PARTITION state_mt
+  TABLESPACE content_repo,
+PARTITION state_ne
+  TABLESPACE content_repo,
+PARTITION state_nv
+  TABLESPACE content_repo,
+PARTITION state_nh
+  TABLESPACE content_repo,
+PARTITION state_nj
+  TABLESPACE content_repo,
+PARTITION state_nm
+  TABLESPACE content_repo,
+PARTITION state_ny
+  TABLESPACE content_repo,
+PARTITION state_nc
+  TABLESPACE content_repo,
+PARTITION state_nd
+  TABLESPACE content_repo,
+PARTITION state_oh
+  TABLESPACE content_repo,
+PARTITION state_ok
+  TABLESPACE content_repo,
+PARTITION state_or
+  TABLESPACE content_repo,
+PARTITION state_pa
+  TABLESPACE content_repo,
+PARTITION state_ri
+  TABLESPACE content_repo,
+PARTITION state_sc
+  TABLESPACE content_repo,
+PARTITION state_sd
+  TABLESPACE content_repo,
+PARTITION state_tn
+  TABLESPACE content_repo,
+PARTITION state_tx
+  TABLESPACE content_repo,
+PARTITION state_ut
+  TABLESPACE content_repo,
+PARTITION state_vt
+  TABLESPACE content_repo,
+PARTITION state_va
+  TABLESPACE content_repo,
+PARTITION state_wa
+  TABLESPACE content_repo,
+PARTITION state_wv
+  TABLESPACE content_repo,
+PARTITION state_wi
+  TABLESPACE content_repo,
+PARTITION state_wy
+  TABLESPACE content_repo);

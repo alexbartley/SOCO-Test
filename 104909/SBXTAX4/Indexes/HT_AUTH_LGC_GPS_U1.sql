@@ -1,0 +1,3 @@
+CREATE UNIQUE INDEX sbxtax4.ht_auth_lgc_gps_u1 ON sbxtax4.ht_authority_logic_groups(aud_authority_logic_group_id)
+
+TABLESPACE ositax;

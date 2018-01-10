@@ -1,0 +1,3 @@
+CREATE UNIQUE INDEX sbxtax2.contrib_auth_u1 ON sbxtax2.tb_contributing_authorities(contributing_authority_id)
+
+TABLESPACE ositax;

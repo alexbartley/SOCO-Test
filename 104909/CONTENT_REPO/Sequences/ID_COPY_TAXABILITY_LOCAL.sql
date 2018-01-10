@@ -1,0 +1,1 @@
+CREATE SEQUENCE content_repo.id_copy_taxability_local MAXVALUE 9999999999999999 MINVALUE 0;

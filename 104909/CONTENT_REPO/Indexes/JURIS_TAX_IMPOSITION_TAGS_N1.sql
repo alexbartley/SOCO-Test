@@ -1,0 +1,3 @@
+CREATE INDEX content_repo.juris_tax_imposition_tags_n1 ON content_repo.juris_tax_imposition_tags(ref_nkid)
+
+TABLESPACE content_repo;

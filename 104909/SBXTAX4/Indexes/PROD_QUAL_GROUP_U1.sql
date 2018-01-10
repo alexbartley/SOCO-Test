@@ -1,0 +1,3 @@
+CREATE UNIQUE INDEX sbxtax4.prod_qual_group_u1 ON sbxtax4.tb_product_qualifier_groups(product_qualifier_group_id)
+
+TABLESPACE ositax;

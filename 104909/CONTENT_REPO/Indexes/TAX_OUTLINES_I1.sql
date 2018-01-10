@@ -1,0 +1,3 @@
+CREATE INDEX content_repo.tax_outlines_i1 ON content_repo.tax_outlines(juris_tax_imposition_id)
+
+TABLESPACE content_repo;

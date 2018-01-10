@@ -1,0 +1,1 @@
+GRANT SELECT ON sbxtax4.tdr_etl_tb_reference_lists TO datax4;

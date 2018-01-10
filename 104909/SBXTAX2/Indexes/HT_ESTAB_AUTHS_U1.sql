@@ -1,0 +1,3 @@
+CREATE UNIQUE INDEX sbxtax2.ht_estab_auths_u1 ON sbxtax2.ht_established_authorities(aud_established_authority_id)
+
+TABLESPACE ositax;

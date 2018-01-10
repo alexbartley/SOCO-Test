@@ -1,0 +1,3 @@
+CREATE UNIQUE INDEX sbxtax2.ex_cert_cmcds_u1 ON sbxtax2.tb_exempt_cert_commodity_code(exempt_cert_commodity_code_id)
+
+TABLESPACE ositax;

@@ -1,0 +1,3 @@
+CREATE UNIQUE INDEX sbxtax.dash_ath_typ_u1 ON sbxtax.tb_dashboard_view_auth_types(dashboard_view_auth_type_id)
+
+TABLESPACE ositax;

@@ -1,0 +1,1 @@
+GRANT SELECT ON crapp_admin.pk_action_log_process_id TO PUBLIC;

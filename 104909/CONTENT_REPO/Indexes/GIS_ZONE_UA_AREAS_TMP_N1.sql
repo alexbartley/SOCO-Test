@@ -1,0 +1,3 @@
+CREATE INDEX content_repo.gis_zone_ua_areas_tmp_n1 ON content_repo.gis_zone_unique_areas_tmp(state_code,unique_area)
+
+TABLESPACE content_repo;
