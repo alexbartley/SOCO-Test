@@ -1,0 +1,5 @@
+CREATE TABLE alex_50215.tabletoo (
+  empno NUMBER(5) NOT NULL,
+  "OTHER" VARCHAR2(15 BYTE) NOT NULL,
+  PRIMARY KEY (empno)
+);
