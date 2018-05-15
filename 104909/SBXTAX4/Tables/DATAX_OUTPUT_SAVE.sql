@@ -3,7 +3,5 @@ CREATE TABLE sbxtax4.datax_output_save (
   data_check_id NUMBER NOT NULL,
   primary_key NUMBER NOT NULL,
   original_run_id NUMBER NOT NULL,
-  repeated_run_id NUMBER NOT NULL,
-  CONSTRAINT datax_output_save_fk1 FOREIGN KEY (data_check_id) REFERENCES sbxtax4.datax_checks (data_check_id)
-) 
-TABLESPACE ositax;
+  repeated_run_id NUMBER NOT NULL
+);

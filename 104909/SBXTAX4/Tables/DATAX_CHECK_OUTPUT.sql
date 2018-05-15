@@ -9,7 +9,5 @@ CREATE TABLE sbxtax4.datax_check_output (
   last_update_date DATE,
   verified VARCHAR2(20 BYTE),
   verified_date DATE,
-  removed VARCHAR2(1 BYTE),
-  CONSTRAINT datax_check_output_fk FOREIGN KEY (data_check_id) REFERENCES sbxtax4.datax_checks (data_check_id)
-) 
-TABLESPACE ositax;
+  removed VARCHAR2(1 BYTE)
+);
