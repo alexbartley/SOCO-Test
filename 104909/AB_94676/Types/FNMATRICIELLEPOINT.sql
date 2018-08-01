@@ -1,0 +1,6 @@
+CREATE OR REPLACE TYPE ab_94676.FNMATRICIELLEPOINT                                          AS OBJECT
+(
+  x DOUBLE PRECISION,
+  y DOUBLE PRECISION
+);
+/

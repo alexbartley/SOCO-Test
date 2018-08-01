@@ -1,0 +1,1 @@
+GRANT EXECUTE ON "SYSTEM".fnqdouverturepartielle TO ab_94676;
