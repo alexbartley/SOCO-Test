@@ -1,0 +1,2 @@
+CREATE OR REPLACE FORCE VIEW ab134370.v_apptype3 (app_type_id,app_type,created_by,date_created,modified_by,date_modified) AS
+SELECT "APP_TYPE_ID","APP_TYPE","CREATED_BY","DATE_CREATED","MODIFIED_BY","DATE_MODIFIED" FROM APP_TYPE;
